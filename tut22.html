@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo selsctor & more designing</title>
+    <style>
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: red;
+            background-color: rgb(247, 247, 247);
+        }
+        a:visited{
+            color: rgb(155, 15, 143);
+        }
+        a:active{
+            background-color: bisque;
+        }
+        .container{
+            border: 4px solid red;
+            background-color: rgb(177 238 116);
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+        .btn{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: bold;
+            background-color: aqua;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: red;
+            background-color: rgb(247, 247, 247);
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, fugit doloremque perferendis omnis reiciendis itaque, minus, corrupti consequuntur expedita id mollitia quae aspernatur nisi corporis ipsa. Eius sapiente ipsam sit?</p>
+        <a href="https://google.com" class="btn">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>
