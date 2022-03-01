@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>CODING EVENT</h2>
+    <form action="backend.php">
+        <label for="name">NAME:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <!-- <hr> -->
+        <label for="roll">ROLL:</label>
+        <div>
+            <input type="text" name="myRoll" id="roll">
+        </div>
+        <br>
+        <label for="email">EMAIL:</label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <label for="date">DATE:</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="bouns">BOUNS:</label>
+        <div>
+            <input type="number" name="myBonus" id="bouns">
+        </div>
+        <br>
+        <label for="Eligility">Are You Eligible?: </label>
+        <div>
+            <input type="checkbox" name="myEligility" id="Eligility" checked>
+            <!-- already checked -->
+        </div>
+        <br>
+        <label for="gender">GENDER:</label>
+        <div>
+            MALE <input type="radio" name="myGender" id="gender"> FEMALE <input type="radio" name="myGender"
+                id="gender"> OTHER <input type="radio" name="myGender" id="gender">
+            <div>
+                <br>
+                <label for="text">Write About Yourself: </label>
+                <div>
+                    <br><textarea name="myText" cols="30" rows="10" id="text"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="Car">Car:</label>
+                    <select name="myCar" id="Car">
+                        <option value="ind">indica</option>
+                        <option value="swf">Swift</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Submit Now">
+                    <input type="reset" value="Reset Now">
+                </div>
+    </form>
+
+</body>
+
+</html>
