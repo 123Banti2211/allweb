@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligment</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100&family=Noto+Sans+JP:wght@900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+
+        }
+
+        body {
+            font-family: 'League Spartan', 'sans-serif';
+            font-family: 'Noto Sans JP', 'sans-serif';
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(244 187 219);
+
+
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(213 197 244);
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+
+        }
+
+        #Computer {
+            float: right;
+            width: 48%;
+
+        }
+
+        #Stationary {
+            clear: both;
+            /* float: left; */
+            width: 100%;
+
+        }
+
+        p,h3 {
+            /* text-align: center; */
+            text-align: left;
+            /* text-align: right; */
+            /* text-align: justify; */
+        }
+
+        h1 {
+            margin: auto;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div class="container">
+            <div id="fruits" class="item">
+                <h3>FRUITS</h3>
+                <p id="fruitspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus error
+                    illo magnam ab consectetur ad officia, reiciendis totam laborum esse ullam, debitis, aut cum? Odit
+                    voluptate nulla consequuntur assumenda et?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Odit tenetur placeat reiciendis quis similique aperiam amet impedit quia iure eveniet? Voluptates
+                    nulla sunt sed consectetur, cupiditate repudiandae omnis ex, recusandae, quidem aperiam aspernatur
+                    porro!</p>
+            </div>
+
+            <div id="Computer" class="item">
+                <h3>Computer</h3>
+                <p id="Computerpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus error
+                    illo magnam ab consectetur ad officia, reiciendis totam laborum esse ullam, debitis, aut cum? Odit
+                    voluptate nulla consequuntur assumenda et?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Amet sed quia dolorum sint ipsam minus rem blanditiis expedita doloremque, officiis necessitatibus
+                    saepe officia eius labore ex nihil, molestias optio delectus aspernatur quaerat illo aliquid.</p>
+            </div>
+
+            <div id="Stationary" class="item">
+                <h3>Stationary</h3>
+                <p id="Stationarypara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus
+                    error illo magnam ab consectetur ad officia, reiciendis totam laborum esse ullam, debitis, aut cum?
+                    Odit voluptate nulla consequuntur assumenda et?</p>
+            </div>
+
+            <div id="Glass" class="item">
+                <h3>Glass</h3>
+                <p id="Glasspara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus error
+                    illo magnam ab consectetur ad officia, reiciendis totam laborum esse ullam, debitis, aut cum? Odit
+                    voluptate nulla consequuntur assumenda et?</p>
+            </div>
+        </div>
+</body>
+
+</html>
