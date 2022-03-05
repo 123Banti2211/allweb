@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and text shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            padding: 23px 12px;
+            /* border: 2px solid red; */
+            margin: 23px 12px;
+            background-color: yellowgreen;
+            /* box-shadow: offset-x, offset-y, blur-radius, spread-readius; */
+            box-shadow: 7px 7px 10px 34px rgba(71, 172, 172, 0.5);
+            /* box-shadow: -7px -7px green; */
+            box-shadow: inset 3px 5px green, 4px 6px red;
+        }
+
+        .card h2 {
+            text-shadow: 2px 2px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>Card1</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, explicabo corrupti! Facilis id totam
+                magni reiciendis nesciunt numquam culpa explicabo repellendus quo modi, voluptatibus dolor veniam
+                aliquam quis, veritatis laboriosam rem aperiam vitae in.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>Card2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In molestiae accusantium iure eveniet, tempora
+                minus itaque. Earum nostrum eveniet atque et reiciendis error natus aperiam nemo dolor repudiandae
+                asperiores recusandae, distinctio vero in dolores!</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam qui, molestiae suscipit voluptates
+                omnis iste deleniti repellendus laborum eum enim. Provident sint, ad reprehenderit commodi rerum, quod
+                doloribus distinctio aliquid laudantium repellendus quam quos.</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Seletor</title>
+    <style>
+        h1 {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* if p is contained by any li which is by div  */
+        /* div p{
+            color: rgb(52, 63, 221);
+            background-color: rgb(245, 215, 46);
+            font-weight: bold;
+            font-size: large;
+        } */
+
+        /* if p is right inside div then this css will be applied */
+        /* div > p{
+            color: rgb(52, 63, 221);
+            background-color: rgb(245, 215, 46);
+            font-weight: bold;
+            font-size: large;
+        } */
+
+        /* if p is right after div li.e p is the next sibling of div 
+        div +p{
+            color: white;
+            background-color: tomato;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1>This Is More On Seletor</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p>This is another paragraph inside li</p>
+                </li>
+                <li>This is not affected</li>
+                <p>This is a paragraph inside ul</p>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>This is outer most paragraph</p>
+</body>
+
+</html>
